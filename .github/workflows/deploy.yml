@@ -1,0 +1,33 @@
+name: Deploy textbook site
+
+# Этот workflow пока неактивен (триггер на ручной запуск).
+# Будет включён после реализации Фазы Е: сборка MkDocs из aristotel-kb
+# и пуш собранного сайта в этот репозиторий.
+
+on:
+  workflow_dispatch:        # пока только ручной запуск
+  # repository_dispatch:    # включить, когда из aristotel-kb пойдут события
+  #   types: [textbook-update]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
