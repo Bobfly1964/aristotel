@@ -1,0 +1,471 @@
+{
+  "schema_version": "0.1.0",
+  "stembook_version": "0.1.0",
+  "concept_count": 58,
+  "concepts": [
+    {
+      "id": "cs.python.assignment",
+      "title": "Присваивание",
+      "subject": "cs",
+      "area": "python",
+      "importance": "critical",
+      "href": "/concepts/cs-python-assignment/"
+    },
+    {
+      "id": "cs.python.comment",
+      "title": "Комментарий",
+      "subject": "cs",
+      "area": "python",
+      "importance": "normal",
+      "href": "/concepts/cs-python-comment/"
+    },
+    {
+      "id": "cs.python.expression",
+      "title": "Выражение (в Python)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-expression/"
+    },
+    {
+      "id": "cs.python.f_string",
+      "title": "f-строка (форматированная строка)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "low",
+      "href": "/concepts/cs-python-f_string/"
+    },
+    {
+      "id": "cs.python.float",
+      "title": "Тип float (дробные числа)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "critical",
+      "href": "/concepts/cs-python-float/"
+    },
+    {
+      "id": "cs.python.float_comparison",
+      "title": "Сравнение float с допуском",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-float_comparison/"
+    },
+    {
+      "id": "cs.python.for_loop",
+      "title": "Цикл for",
+      "subject": "cs",
+      "area": "python",
+      "importance": "critical",
+      "href": "/concepts/cs-python-for_loop/"
+    },
+    {
+      "id": "cs.python.function_call",
+      "title": "Вызов функции",
+      "subject": "cs",
+      "area": "python",
+      "importance": "critical",
+      "href": "/concepts/cs-python-function_call/"
+    },
+    {
+      "id": "cs.python.function_definition",
+      "title": "Определение функции (def)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "critical",
+      "href": "/concepts/cs-python-function_definition/"
+    },
+    {
+      "id": "cs.python.import",
+      "title": "Импорт библиотеки",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-import/"
+    },
+    {
+      "id": "cs.python.indentation",
+      "title": "Отступы (блочная структура)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-indentation/"
+    },
+    {
+      "id": "cs.python.int",
+      "title": "Тип int (целые числа)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-int/"
+    },
+    {
+      "id": "cs.python.library",
+      "title": "Библиотека (модуль) Python",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-library/"
+    },
+    {
+      "id": "cs.python.list",
+      "title": "Список",
+      "subject": "cs",
+      "area": "python",
+      "importance": "critical",
+      "href": "/concepts/cs-python-list/"
+    },
+    {
+      "id": "cs.python.list_append",
+      "title": "Добавление в список (append)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-list_append/"
+    },
+    {
+      "id": "cs.python.loop_body",
+      "title": "Тело цикла",
+      "subject": "cs",
+      "area": "python",
+      "importance": "normal",
+      "href": "/concepts/cs-python-loop_body/"
+    },
+    {
+      "id": "cs.python.math_isclose",
+      "title": "Функция math.isclose()",
+      "subject": "cs",
+      "area": "python",
+      "importance": "normal",
+      "href": "/concepts/cs-python-math_isclose/"
+    },
+    {
+      "id": "cs.python.matplotlib",
+      "title": "Библиотека matplotlib",
+      "subject": "cs",
+      "area": "python",
+      "importance": "low",
+      "href": "/concepts/cs-python-matplotlib/"
+    },
+    {
+      "id": "cs.python.numpy",
+      "title": "Библиотека numpy",
+      "subject": "cs",
+      "area": "python",
+      "importance": "low",
+      "href": "/concepts/cs-python-numpy/"
+    },
+    {
+      "id": "cs.python.parameter",
+      "title": "Параметр функции",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-parameter/"
+    },
+    {
+      "id": "cs.python.range",
+      "title": "Функция range()",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-range/"
+    },
+    {
+      "id": "cs.python.return_value",
+      "title": "Возвращаемое значение (return)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-return_value/"
+    },
+    {
+      "id": "cs.python.variable",
+      "title": "Переменная (в Python)",
+      "subject": "cs",
+      "area": "python",
+      "importance": "critical",
+      "href": "/concepts/cs-python-variable/"
+    },
+    {
+      "id": "cs.python.zip",
+      "title": "Функция zip()",
+      "subject": "cs",
+      "area": "python",
+      "importance": "low",
+      "href": "/concepts/cs-python-zip/"
+    },
+    {
+      "id": "math.absolute_value",
+      "title": "Модуль числа",
+      "subject": "math",
+      "area": "algebra",
+      "importance": "high",
+      "href": "/concepts/math-absolute_value/"
+    },
+    {
+      "id": "math.arithmetic_mean",
+      "title": "Среднее арифметическое",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-arithmetic_mean/"
+    },
+    {
+      "id": "math.coordinate_line",
+      "title": "Координатная прямая",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "high",
+      "href": "/concepts/math-coordinate_line/"
+    },
+    {
+      "id": "math.coordinate_plane",
+      "title": "Координатная плоскость",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "high",
+      "href": "/concepts/math-coordinate_plane/"
+    },
+    {
+      "id": "math.direct_proportion",
+      "title": "Прямая пропорциональность",
+      "subject": "math",
+      "area": "algebra",
+      "importance": "high",
+      "href": "/concepts/math-direct_proportion/"
+    },
+    {
+      "id": "math.distance_formula",
+      "title": "Расстояние между точками на плоскости",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "high",
+      "href": "/concepts/math-distance_formula/"
+    },
+    {
+      "id": "math.function",
+      "title": "Функция",
+      "subject": "math",
+      "area": "algebra",
+      "importance": "critical",
+      "href": "/concepts/math-function/"
+    },
+    {
+      "id": "math.function_graph",
+      "title": "График функции",
+      "subject": "math",
+      "area": "algebra",
+      "importance": "critical",
+      "href": "/concepts/math-function_graph/"
+    },
+    {
+      "id": "math.graph_slope",
+      "title": "Угловой коэффициент",
+      "subject": "math",
+      "area": "algebra",
+      "importance": "high",
+      "href": "/concepts/math-graph_slope/"
+    },
+    {
+      "id": "math.linear_function",
+      "title": "Линейная функция",
+      "subject": "math",
+      "area": "algebra",
+      "importance": "critical",
+      "href": "/concepts/math-linear_function/"
+    },
+    {
+      "id": "math.motion_graph",
+      "title": "График равномерного движения",
+      "subject": "math",
+      "area": "algebra",
+      "importance": "high",
+      "href": "/concepts/math-motion_graph/"
+    },
+    {
+      "id": "math.outlier",
+      "title": "Выброс",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-outlier/"
+    },
+    {
+      "id": "math.rounding",
+      "title": "Округление",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-rounding/"
+    },
+    {
+      "id": "math.scalar",
+      "title": "Скаляр",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "high",
+      "href": "/concepts/math-scalar/"
+    },
+    {
+      "id": "math.significant_digits",
+      "title": "Значащие цифры",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-significant_digits/"
+    },
+    {
+      "id": "math.standard_form",
+      "title": "Стандартный вид числа",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-standard_form/"
+    },
+    {
+      "id": "math.vector",
+      "title": "Вектор",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "high",
+      "href": "/concepts/math-vector/"
+    },
+    {
+      "id": "math.vector_length",
+      "title": "Длина вектора",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "normal",
+      "href": "/concepts/math-vector_length/"
+    },
+    {
+      "id": "math.weighted_mean",
+      "title": "Взвешенное среднее",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-weighted_mean/"
+    },
+    {
+      "id": "meta.three_worlds_framework",
+      "title": "Концепция трёх миров числа",
+      "subject": "meta",
+      "area": "three_worlds_framework",
+      "importance": "high",
+      "href": "/concepts/meta-three_worlds_framework/"
+    },
+    {
+      "id": "physics.average_speed",
+      "title": "Средняя скорость",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "critical",
+      "href": "/concepts/physics-average_speed/"
+    },
+    {
+      "id": "physics.displacement",
+      "title": "Перемещение",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "high",
+      "href": "/concepts/physics-displacement/"
+    },
+    {
+      "id": "physics.material_point",
+      "title": "Материальная точка",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "high",
+      "href": "/concepts/physics-material_point/"
+    },
+    {
+      "id": "physics.measurement",
+      "title": "Измерение",
+      "subject": "physics",
+      "area": "measurement",
+      "importance": "critical",
+      "href": "/concepts/physics-measurement/"
+    },
+    {
+      "id": "physics.measurement_division",
+      "title": "Цена деления прибора",
+      "subject": "physics",
+      "area": "measurement",
+      "importance": "high",
+      "href": "/concepts/physics-measurement_division/"
+    },
+    {
+      "id": "physics.measurement_uncertainty",
+      "title": "Погрешность измерения",
+      "subject": "physics",
+      "area": "measurement",
+      "importance": "critical",
+      "href": "/concepts/physics-measurement_uncertainty/"
+    },
+    {
+      "id": "physics.path",
+      "title": "Путь",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "high",
+      "href": "/concepts/physics-path/"
+    },
+    {
+      "id": "physics.reference_frame",
+      "title": "Система отсчёта",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "high",
+      "href": "/concepts/physics-reference_frame/"
+    },
+    {
+      "id": "physics.si_prefixes",
+      "title": "Приставки СИ",
+      "subject": "physics",
+      "area": "measurement",
+      "importance": "high",
+      "href": "/concepts/physics-si_prefixes/"
+    },
+    {
+      "id": "physics.si_units",
+      "title": "Единицы СИ",
+      "subject": "physics",
+      "area": "measurement",
+      "importance": "high",
+      "href": "/concepts/physics-si_units/"
+    },
+    {
+      "id": "physics.speed_units",
+      "title": "Единицы скорости",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "high",
+      "href": "/concepts/physics-speed_units/"
+    },
+    {
+      "id": "physics.trajectory",
+      "title": "Траектория",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "normal",
+      "href": "/concepts/physics-trajectory/"
+    },
+    {
+      "id": "physics.uniform_motion",
+      "title": "Равномерное движение",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "critical",
+      "href": "/concepts/physics-uniform_motion/"
+    },
+    {
+      "id": "physics.velocity",
+      "title": "Скорость",
+      "subject": "physics",
+      "area": "kinematics",
+      "importance": "critical",
+      "href": "/concepts/physics-velocity/"
+    }
+  ]
+}
