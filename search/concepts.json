@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "stembook_version": "0.1.0",
-  "concept_count": 58,
+  "concept_count": 87,
   "concepts": [
     {
       "id": "cs.python.assignment",
@@ -212,6 +212,46 @@
       "href": "/concepts/math-arithmetic_mean/"
     },
     {
+      "id": "math.bezout_identity",
+      "title": "Тождество Безу",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-bezout_identity/"
+    },
+    {
+      "id": "math.chinese_remainder_theorem",
+      "title": "Китайская теорема об остатках",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-chinese_remainder_theorem/"
+    },
+    {
+      "id": "math.collatz_conjecture",
+      "title": "Гипотеза Коллатца",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-collatz_conjecture/"
+    },
+    {
+      "id": "math.composite_number",
+      "title": "Составное число",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-composite_number/"
+    },
+    {
+      "id": "math.congruence_modulo",
+      "title": "Сравнение по модулю",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-congruence_modulo/"
+    },
+    {
       "id": "math.coordinate_line",
       "title": "Координатная прямая",
       "subject": "math",
@@ -226,6 +266,14 @@
       "area": "geometry",
       "importance": "high",
       "href": "/concepts/math-coordinate_plane/"
+    },
+    {
+      "id": "math.coprime",
+      "title": "Взаимная простота",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-coprime/"
     },
     {
       "id": "math.direct_proportion",
@@ -244,6 +292,62 @@
       "href": "/concepts/math-distance_formula/"
     },
     {
+      "id": "math.divisibility",
+      "title": "Делимость",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-divisibility/"
+    },
+    {
+      "id": "math.division_with_remainder",
+      "title": "Деление с остатком",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-division_with_remainder/"
+    },
+    {
+      "id": "math.euclid_lemma",
+      "title": "Лемма Евклида",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-euclid_lemma/"
+    },
+    {
+      "id": "math.euclidean_algorithm",
+      "title": "Алгоритм Евклида",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-euclidean_algorithm/"
+    },
+    {
+      "id": "math.euler_theorem",
+      "title": "Теорема Эйлера",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-euler_theorem/"
+    },
+    {
+      "id": "math.euler_totient",
+      "title": "Функция Эйлера",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-euler_totient/"
+    },
+    {
+      "id": "math.fermat_little_theorem",
+      "title": "Малая теорема Ферма",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-fermat_little_theorem/"
+    },
+    {
       "id": "math.function",
       "title": "Функция",
       "subject": "math",
@@ -260,12 +364,44 @@
       "href": "/concepts/math-function_graph/"
     },
     {
+      "id": "math.fundamental_theorem_of_arithmetic",
+      "title": "Основная теорема арифметики",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-fundamental_theorem_of_arithmetic/"
+    },
+    {
+      "id": "math.gcd",
+      "title": "Наибольший общий делитель",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-gcd/"
+    },
+    {
+      "id": "math.goldbach_conjecture",
+      "title": "Гипотеза Гольдбаха",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-goldbach_conjecture/"
+    },
+    {
       "id": "math.graph_slope",
       "title": "Угловой коэффициент",
       "subject": "math",
       "area": "algebra",
       "importance": "high",
       "href": "/concepts/math-graph_slope/"
+    },
+    {
+      "id": "math.lcm",
+      "title": "Наименьшее общее кратное",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-lcm/"
     },
     {
       "id": "math.linear_function",
@@ -276,6 +412,22 @@
       "href": "/concepts/math-linear_function/"
     },
     {
+      "id": "math.mathematical_induction",
+      "title": "Математическая индукция",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-mathematical_induction/"
+    },
+    {
+      "id": "math.modular_inverse",
+      "title": "Обратный элемент по модулю",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-modular_inverse/"
+    },
+    {
       "id": "math.motion_graph",
       "title": "График равномерного движения",
       "subject": "math",
@@ -284,12 +436,60 @@
       "href": "/concepts/math-motion_graph/"
     },
     {
+      "id": "math.natural_number",
+      "title": "Натуральное число",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-natural_number/"
+    },
+    {
+      "id": "math.number_one",
+      "title": "Единица",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-number_one/"
+    },
+    {
+      "id": "math.number_zero",
+      "title": "Ноль",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-number_zero/"
+    },
+    {
       "id": "math.outlier",
       "title": "Выброс",
       "subject": "math",
       "area": "arithmetic",
       "importance": "high",
       "href": "/concepts/math-outlier/"
+    },
+    {
+      "id": "math.peano_axioms",
+      "title": "Аксиомы Пеано",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-peano_axioms/"
+    },
+    {
+      "id": "math.prime_number",
+      "title": "Простое число",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "critical",
+      "href": "/concepts/math-prime_number/"
+    },
+    {
+      "id": "math.riemann_hypothesis",
+      "title": "Гипотеза Римана",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-riemann_hypothesis/"
     },
     {
       "id": "math.rounding",
@@ -308,6 +508,14 @@
       "href": "/concepts/math-scalar/"
     },
     {
+      "id": "math.sieve_of_eratosthenes",
+      "title": "Решето Эратосфена",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-sieve_of_eratosthenes/"
+    },
+    {
       "id": "math.significant_digits",
       "title": "Значащие цифры",
       "subject": "math",
@@ -322,6 +530,22 @@
       "area": "arithmetic",
       "importance": "critical",
       "href": "/concepts/math-standard_form/"
+    },
+    {
+      "id": "math.successor",
+      "title": "Преемник",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-successor/"
+    },
+    {
+      "id": "math.twin_prime_conjecture",
+      "title": "Гипотеза о простых-близнецах",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "normal",
+      "href": "/concepts/math-twin_prime_conjecture/"
     },
     {
       "id": "math.vector",
@@ -346,6 +570,14 @@
       "area": "arithmetic",
       "importance": "high",
       "href": "/concepts/math-weighted_mean/"
+    },
+    {
+      "id": "math.well_ordering_principle",
+      "title": "Принцип хорошей упорядоченности",
+      "subject": "math",
+      "area": "arithmetic",
+      "importance": "high",
+      "href": "/concepts/math-well_ordering_principle/"
     },
     {
       "id": "meta.three_worlds_framework",
