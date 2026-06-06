@@ -1,8 +1,144 @@
 {
   "schema_version": "0.1.0",
   "stembook_version": "0.1.0",
-  "concept_count": 87,
+  "concept_count": 109,
   "concepts": [
+    {
+      "id": "cs.arbitrary_precision_integer",
+      "title": "Целое произвольной точности",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "high",
+      "href": "/concepts/cs-arbitrary_precision_integer/"
+    },
+    {
+      "id": "cs.bitwise_operation",
+      "title": "Битовые операции",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "normal",
+      "href": "/concepts/cs-bitwise_operation/"
+    },
+    {
+      "id": "cs.catastrophic_cancellation",
+      "title": "Катастрофическое вычитание",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "critical",
+      "href": "/concepts/cs-catastrophic_cancellation/"
+    },
+    {
+      "id": "cs.condition_number",
+      "title": "Число обусловленности",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "high",
+      "href": "/concepts/cs-condition_number/"
+    },
+    {
+      "id": "cs.fast_exponentiation",
+      "title": "Быстрое возведение в степень",
+      "subject": "cs",
+      "area": "computation",
+      "importance": "normal",
+      "href": "/concepts/cs-fast_exponentiation/"
+    },
+    {
+      "id": "cs.float_comparison_tolerance",
+      "title": "Сравнение float через допуск",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "high",
+      "href": "/concepts/cs-float_comparison_tolerance/"
+    },
+    {
+      "id": "cs.float_nonuniform_distribution",
+      "title": "Неравномерность распределения float",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "high",
+      "href": "/concepts/cs-float_nonuniform_distribution/"
+    },
+    {
+      "id": "cs.float_special_values",
+      "title": "Специальные значения float",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "high",
+      "href": "/concepts/cs-float_special_values/"
+    },
+    {
+      "id": "cs.floating_point",
+      "title": "Число с плавающей точкой",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "critical",
+      "href": "/concepts/cs-floating_point/"
+    },
+    {
+      "id": "cs.godunov_theorem",
+      "title": "Теорема Годунова (предел точности)",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "normal",
+      "href": "/concepts/cs-godunov_theorem/"
+    },
+    {
+      "id": "cs.ieee754",
+      "title": "Стандарт IEEE 754",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "critical",
+      "href": "/concepts/cs-ieee754/"
+    },
+    {
+      "id": "cs.integer_overflow",
+      "title": "Целочисленное переполнение",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "high",
+      "href": "/concepts/cs-integer_overflow/"
+    },
+    {
+      "id": "cs.interval_arithmetic",
+      "title": "Интервальная арифметика",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "normal",
+      "href": "/concepts/cs-interval_arithmetic/"
+    },
+    {
+      "id": "cs.kahan_summation",
+      "title": "Алгоритм Кэхэна",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "high",
+      "href": "/concepts/cs-kahan_summation/"
+    },
+    {
+      "id": "cs.karatsuba_algorithm",
+      "title": "Алгоритм Карацубы",
+      "subject": "cs",
+      "area": "computation",
+      "importance": "high",
+      "href": "/concepts/cs-karatsuba_algorithm/"
+    },
+    {
+      "id": "cs.machine_epsilon",
+      "title": "Машинное эпсилон",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "critical",
+      "href": "/concepts/cs-machine_epsilon/"
+    },
+    {
+      "id": "cs.numerical_stability",
+      "title": "Численная устойчивость",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "critical",
+      "href": "/concepts/cs-numerical_stability/"
+    },
     {
       "id": "cs.python.assignment",
       "title": "Присваивание",
@@ -194,6 +330,46 @@
       "area": "python",
       "importance": "low",
       "href": "/concepts/cs-python-zip/"
+    },
+    {
+      "id": "cs.rational_arithmetic",
+      "title": "Рациональная арифметика",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "high",
+      "href": "/concepts/cs-rational_arithmetic/"
+    },
+    {
+      "id": "cs.roundoff_error",
+      "title": "Ошибка округления",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "high",
+      "href": "/concepts/cs-roundoff_error/"
+    },
+    {
+      "id": "cs.twos_complement",
+      "title": "Дополнение до двух",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "critical",
+      "href": "/concepts/cs-twos_complement/"
+    },
+    {
+      "id": "cs.ulp",
+      "title": "ULP (единица последнего разряда)",
+      "subject": "cs",
+      "area": "numerical_methods",
+      "importance": "normal",
+      "href": "/concepts/cs-ulp/"
+    },
+    {
+      "id": "cs.unsigned_integer",
+      "title": "Беззнаковое целое",
+      "subject": "cs",
+      "area": "representation",
+      "importance": "critical",
+      "href": "/concepts/cs-unsigned_integer/"
     },
     {
       "id": "math.absolute_value",
