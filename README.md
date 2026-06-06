@@ -1,7 +1,7 @@
 # ARISTOTEL Textbook
 
 > Интегрированный STEM-учебник: математика, физика, информатика для 7–11 класса.
-> AI-powered education — учебник как граф знаний.
+> AI-powered education — учебник как граф знаний.  
 
 🌐 **Сайт:** [aristotel.academy](https://aristotel.academy)
 
