@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "stembook_version": "0.1.0",
-  "concept_count": 109,
+  "concept_count": 127,
   "concepts": [
     {
       "id": "cs.arbitrary_precision_integer",
@@ -428,6 +428,14 @@
       "href": "/concepts/math-congruence_modulo/"
     },
     {
+      "id": "math.contrapositive",
+      "title": "Контрапозиция",
+      "subject": "math",
+      "area": "logic",
+      "importance": "high",
+      "href": "/concepts/math-contrapositive/"
+    },
+    {
       "id": "math.coordinate_line",
       "title": "Координатная прямая",
       "subject": "math",
@@ -450,6 +458,22 @@
       "area": "arithmetic",
       "importance": "high",
       "href": "/concepts/math-coprime/"
+    },
+    {
+      "id": "math.counterexample",
+      "title": "Контрпример",
+      "subject": "math",
+      "area": "logic",
+      "importance": "high",
+      "href": "/concepts/math-counterexample/"
+    },
+    {
+      "id": "math.de_morgan_laws",
+      "title": "Законы де Моргана",
+      "subject": "math",
+      "area": "logic",
+      "importance": "high",
+      "href": "/concepts/math-de_morgan_laws/"
     },
     {
       "id": "math.direct_proportion",
@@ -482,6 +506,22 @@
       "area": "arithmetic",
       "importance": "critical",
       "href": "/concepts/math-division_with_remainder/"
+    },
+    {
+      "id": "math.empty_set",
+      "title": "Пустое множество",
+      "subject": "math",
+      "area": "set_theory",
+      "importance": "high",
+      "href": "/concepts/math-empty_set/"
+    },
+    {
+      "id": "math.equivalence",
+      "title": "Эквиваленция",
+      "subject": "math",
+      "area": "logic",
+      "importance": "high",
+      "href": "/concepts/math-equivalence/"
     },
     {
       "id": "math.euclid_lemma",
@@ -572,6 +612,14 @@
       "href": "/concepts/math-graph_slope/"
     },
     {
+      "id": "math.implication",
+      "title": "Импликация",
+      "subject": "math",
+      "area": "logic",
+      "importance": "critical",
+      "href": "/concepts/math-implication/"
+    },
+    {
       "id": "math.lcm",
       "title": "Наименьшее общее кратное",
       "subject": "math",
@@ -588,12 +636,28 @@
       "href": "/concepts/math-linear_function/"
     },
     {
+      "id": "math.logical_connectives",
+      "title": "Логические связки",
+      "subject": "math",
+      "area": "logic",
+      "importance": "critical",
+      "href": "/concepts/math-logical_connectives/"
+    },
+    {
       "id": "math.mathematical_induction",
       "title": "Математическая индукция",
       "subject": "math",
       "area": "arithmetic",
       "importance": "critical",
       "href": "/concepts/math-mathematical_induction/"
+    },
+    {
+      "id": "math.mathematical_proof",
+      "title": "Математическое доказательство",
+      "subject": "math",
+      "area": "logic",
+      "importance": "critical",
+      "href": "/concepts/math-mathematical_proof/"
     },
     {
       "id": "math.modular_inverse",
@@ -618,6 +682,14 @@
       "area": "arithmetic",
       "importance": "critical",
       "href": "/concepts/math-natural_number/"
+    },
+    {
+      "id": "math.necessary_sufficient_condition",
+      "title": "Необходимое и достаточное условие",
+      "subject": "math",
+      "area": "logic",
+      "importance": "high",
+      "href": "/concepts/math-necessary_sufficient_condition/"
     },
     {
       "id": "math.number_one",
@@ -660,6 +732,38 @@
       "href": "/concepts/math-prime_number/"
     },
     {
+      "id": "math.proof_by_contradiction",
+      "title": "Доказательство от противного",
+      "subject": "math",
+      "area": "logic",
+      "importance": "high",
+      "href": "/concepts/math-proof_by_contradiction/"
+    },
+    {
+      "id": "math.proposition",
+      "title": "Высказывание",
+      "subject": "math",
+      "area": "logic",
+      "importance": "critical",
+      "href": "/concepts/math-proposition/"
+    },
+    {
+      "id": "math.quantifier",
+      "title": "Квантор",
+      "subject": "math",
+      "area": "logic",
+      "importance": "critical",
+      "href": "/concepts/math-quantifier/"
+    },
+    {
+      "id": "math.quantifier_negation",
+      "title": "Отрицание кванторов",
+      "subject": "math",
+      "area": "logic",
+      "importance": "high",
+      "href": "/concepts/math-quantifier_negation/"
+    },
+    {
       "id": "math.riemann_hypothesis",
       "title": "Гипотеза Римана",
       "subject": "math",
@@ -676,12 +780,36 @@
       "href": "/concepts/math-rounding/"
     },
     {
+      "id": "math.russell_paradox",
+      "title": "Парадокс Рассела",
+      "subject": "math",
+      "area": "set_theory",
+      "importance": "normal",
+      "href": "/concepts/math-russell_paradox/"
+    },
+    {
       "id": "math.scalar",
       "title": "Скаляр",
       "subject": "math",
       "area": "geometry",
       "importance": "high",
       "href": "/concepts/math-scalar/"
+    },
+    {
+      "id": "math.set",
+      "title": "Множество",
+      "subject": "math",
+      "area": "set_theory",
+      "importance": "critical",
+      "href": "/concepts/math-set/"
+    },
+    {
+      "id": "math.set_operations",
+      "title": "Операции над множествами",
+      "subject": "math",
+      "area": "set_theory",
+      "importance": "critical",
+      "href": "/concepts/math-set_operations/"
     },
     {
       "id": "math.sieve_of_eratosthenes",
@@ -708,12 +836,28 @@
       "href": "/concepts/math-standard_form/"
     },
     {
+      "id": "math.subset",
+      "title": "Подмножество",
+      "subject": "math",
+      "area": "set_theory",
+      "importance": "critical",
+      "href": "/concepts/math-subset/"
+    },
+    {
       "id": "math.successor",
       "title": "Преемник",
       "subject": "math",
       "area": "arithmetic",
       "importance": "high",
       "href": "/concepts/math-successor/"
+    },
+    {
+      "id": "math.truth_table",
+      "title": "Таблица истинности",
+      "subject": "math",
+      "area": "logic",
+      "importance": "high",
+      "href": "/concepts/math-truth_table/"
     },
     {
       "id": "math.twin_prime_conjecture",
