@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "stembook_version": "0.1.0",
-  "concept_count": 127,
+  "concept_count": 141,
   "concepts": [
     {
       "id": "cs.arbitrary_precision_integer",
@@ -314,6 +314,14 @@
       "area": "python",
       "importance": "high",
       "href": "/concepts/cs-python-return_value/"
+    },
+    {
+      "id": "cs.python.turtle",
+      "title": "Библиотека turtle",
+      "subject": "cs",
+      "area": "python",
+      "importance": "high",
+      "href": "/concepts/cs-python-turtle/"
     },
     {
       "id": "cs.python.variable",
@@ -716,6 +724,14 @@
       "href": "/concepts/math-outlier/"
     },
     {
+      "id": "math.parallelogram_rule",
+      "title": "Правило параллелограмма",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "critical",
+      "href": "/concepts/math-parallelogram_rule/"
+    },
+    {
       "id": "math.peano_axioms",
       "title": "Аксиомы Пеано",
       "subject": "math",
@@ -852,6 +868,14 @@
       "href": "/concepts/math-successor/"
     },
     {
+      "id": "math.triangle_rule",
+      "title": "Правило треугольника",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "critical",
+      "href": "/concepts/math-triangle_rule/"
+    },
+    {
       "id": "math.truth_table",
       "title": "Таблица истинности",
       "subject": "math",
@@ -874,6 +898,14 @@
       "area": "geometry",
       "importance": "high",
       "href": "/concepts/math-vector/"
+    },
+    {
+      "id": "math.vector_addition",
+      "title": "Сложение векторов",
+      "subject": "math",
+      "area": "geometry",
+      "importance": "critical",
+      "href": "/concepts/math-vector_addition/"
     },
     {
       "id": "math.vector_length",
@@ -924,6 +956,62 @@
       "href": "/concepts/physics-displacement/"
     },
     {
+      "id": "physics.dynamometer",
+      "title": "Динамометр",
+      "subject": "physics",
+      "area": "measurement",
+      "importance": "normal",
+      "href": "/concepts/physics-dynamometer/"
+    },
+    {
+      "id": "physics.elastic_force",
+      "title": "Сила упругости",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "critical",
+      "href": "/concepts/physics-elastic_force/"
+    },
+    {
+      "id": "physics.elongation",
+      "title": "Удлинение",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "normal",
+      "href": "/concepts/physics-elongation/"
+    },
+    {
+      "id": "physics.force",
+      "title": "Сила",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "critical",
+      "href": "/concepts/physics-force/"
+    },
+    {
+      "id": "physics.gravity_coefficient",
+      "title": "Коэффициент силы тяжести",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "high",
+      "href": "/concepts/physics-gravity_coefficient/"
+    },
+    {
+      "id": "physics.gravity_force",
+      "title": "Сила тяжести",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "critical",
+      "href": "/concepts/physics-gravity_force/"
+    },
+    {
+      "id": "physics.mass",
+      "title": "Масса",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "critical",
+      "href": "/concepts/physics-mass/"
+    },
+    {
       "id": "physics.material_point",
       "title": "Материальная точка",
       "subject": "physics",
@@ -954,6 +1042,14 @@
       "area": "measurement",
       "importance": "critical",
       "href": "/concepts/physics-measurement_uncertainty/"
+    },
+    {
+      "id": "physics.net_force",
+      "title": "Равнодействующая",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "critical",
+      "href": "/concepts/physics-net_force/"
     },
     {
       "id": "physics.path",
@@ -996,6 +1092,14 @@
       "href": "/concepts/physics-speed_units/"
     },
     {
+      "id": "physics.spring_stiffness",
+      "title": "Жёсткость",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "high",
+      "href": "/concepts/physics-spring_stiffness/"
+    },
+    {
       "id": "physics.trajectory",
       "title": "Траектория",
       "subject": "physics",
@@ -1018,6 +1122,14 @@
       "area": "kinematics",
       "importance": "critical",
       "href": "/concepts/physics-velocity/"
+    },
+    {
+      "id": "physics.weight",
+      "title": "Вес тела",
+      "subject": "physics",
+      "area": "dynamics",
+      "importance": "critical",
+      "href": "/concepts/physics-weight/"
     }
   ]
 }
