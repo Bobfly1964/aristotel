@@ -1,0 +1,1992 @@
+
+<!doctype html>
+<html lang="ru" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="AI-powered STEM Education для 7-11 класса">
+      
+      
+      
+        <link rel="canonical" href="https://aristotel.academy/modules/module-3/archimedes-force/">
+      
+      
+        <link rel="prev" href="../fluid-pressure/">
+      
+      
+        <link rel="next" href="../../../concepts/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.2">
+    
+    
+      
+        <title>Сила Архимеда - ARISTOTEL Knowledge Base</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.css">
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/aristotel.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#м3-3-сила-архимеда" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
+    <a href="../../.." title="ARISTOTEL Knowledge Base" class="md-header__button md-logo" aria-label="ARISTOTEL Knowledge Base" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ARISTOTEL Knowledge Base
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Сила Архимеда
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="cyan"  aria-label="Переключить на светлую"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Переключить на светлую" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="cyan"  aria-label="Переключить на тёмную"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Переключить на тёмную" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Поиск" placeholder="Поиск" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Поиск">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Инициализация поиска
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Главная
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../module-0/python-intro/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Модуль 0
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../module-1/numbers-three-worlds/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Модуль 1
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../module-2/force-vector/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Модуль 2
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../solid-pressure/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Модуль 3
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../concepts/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Концепты
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="ARISTOTEL Knowledge Base" class="md-nav__button md-logo" aria-label="ARISTOTEL Knowledge Base" data-md-component="logo">
+      
+  <img src="../../../assets/images/logo.png" alt="logo">
+
+    </a>
+    ARISTOTEL Knowledge Base
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Главная
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Модуль 0
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Модуль 0
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-0/python-intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М0 §1 — Python — ваш рабочий инструмент
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-0/natural-numbers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М0 §2 — Натуральные числа: от счёта до глубин теории чисел
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-0/computer-arithmetic/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М0 §3 — Арифметика компьютера: точность, ошибки и цена вычислений
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-0/sets-logic-language/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М0 §4 — Множества, логика и язык математики: от интуиции к доказательству
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Модуль 1
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Модуль 1
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-1/numbers-three-worlds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М1 §1 — Цифра в мире величин: число в физике, математике и компьютере
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-1/coordinates-vectors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М1 §2 — Координаты и векторы: где находится тело и куда оно сместилось
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-1/uniform-motion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М1 §3 — Ритм движения: скорость и равномерное движение
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-1/graphs-language/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М1 §4 — Графический язык: как читать историю движения по линии
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-1/mean-value/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М1 §5 — Среднее значение: как заменить набор чисел одним числом
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Модуль 2
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Модуль 2
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-2/force-vector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М2 §1 — Сила как вектор: почему санки едут не туда, куда тянут
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-2/equilibrium-two-forces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М2 §2 — Равновесие: почему книга на столе никуда не падает
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-2/equilibrium-three-forces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М2 §3 — Равновесие трёх сил: почему фонарь висит на двух тросах
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-2/friction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М2 §4 — Сила трения: почему санки останавливаются
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../module-2/tower-stability/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М2 §5 — Устойчивая башня: почему падает то, что стояло
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Модуль 3
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Модуль 3
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solid-pressure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М3 §1 — Давление: почему кнопка входит, а палец — нет
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fluid-pressure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М3 §2 — Давление жидкости: почему плотина толще у дна
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М3 §3 — Сила Архимеда
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    М3 §3 — Сила Архимеда
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#вопросы-к-м3-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вопросы к М3 §3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-31-физика-откуда-берётся-сила-вверх" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.1. Физика: откуда берётся сила вверх
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.1. Физика: откуда берётся сила вверх">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#вытесненный-объём-и-сила-архимеда" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вытесненный объём и сила Архимеда
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#меняется-ли-выталкивание-с-глубиной" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Меняется ли выталкивание с глубиной
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-32-математика-как-найти-вытесненный-объём" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.2. Математика: как найти вытесненный объём
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.2. Математика: как найти вытесненный объём">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#объёмы-параллелепипеда-цилиндра-и-шара" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Объёмы параллелепипеда, цилиндра и шара
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-33-физика-что-будет-после-погружения" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.3. Физика: что будет после погружения
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.3. Физика: что будет после погружения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#сколько-бруска-останется-под-водой" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сколько бруска останется под водой
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-34-информатика-как-сравнить-силы" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.4. Информатика: как сравнить силы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.4. Информатика: как сравнить силы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#программа-для-плавающего-бруска" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Программа для плавающего бруска
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-35-физика-почему-поднимается-аэростат" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.5. Физика: почему поднимается аэростат
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-36-задачи" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.6. Задачи
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.6. Задачи">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-две-грани" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Две грани
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-цилиндр-под-водой" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Цилиндр под водой
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-три-ветви-программы--и96" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Три ветви программы · И(9):6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-груз-для-аэростата--экзамен--по-мотивам-ф920" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Груз для аэростата · Экзамен · по мотивам Ф(9):20
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-37-итог" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.7. Итог
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#мост-к-м3-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Мост к М3 §4
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../concepts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Концепты
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#вопросы-к-м3-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вопросы к М3 §3
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-31-физика-откуда-берётся-сила-вверх" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.1. Физика: откуда берётся сила вверх
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.1. Физика: откуда берётся сила вверх">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#вытесненный-объём-и-сила-архимеда" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Вытесненный объём и сила Архимеда
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#меняется-ли-выталкивание-с-глубиной" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Меняется ли выталкивание с глубиной
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-32-математика-как-найти-вытесненный-объём" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.2. Математика: как найти вытесненный объём
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.2. Математика: как найти вытесненный объём">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#объёмы-параллелепипеда-цилиндра-и-шара" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Объёмы параллелепипеда, цилиндра и шара
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-33-физика-что-будет-после-погружения" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.3. Физика: что будет после погружения
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.3. Физика: что будет после погружения">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#сколько-бруска-останется-под-водой" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Сколько бруска останется под водой
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-34-информатика-как-сравнить-силы" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.4. Информатика: как сравнить силы
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.4. Информатика: как сравнить силы">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#программа-для-плавающего-бруска" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Программа для плавающего бруска
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-35-физика-почему-поднимается-аэростат" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.5. Физика: почему поднимается аэростат
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-36-задачи" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.6. Задачи
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="М3 §3.6. Задачи">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-две-грани" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Две грани
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-цилиндр-под-водой" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Цилиндр под водой
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-три-ветви-программы--и96" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Три ветви программы · И(9):6
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-груз-для-аэростата--экзамен--по-мотивам-ф920" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Груз для аэростата · Экзамен · по мотивам Ф(9):20
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#м3-37-итог" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        М3 §3.7. Итог
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#мост-к-м3-4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Мост к М3 §4
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="м3-3-сила-архимеда">М3 §3. Сила Архимеда<a class="headerlink" href="#м3-3-сила-архимеда" title="Permanent link">&para;</a></h1>
+<!-- fragment:001 -->
+
+<h2 id="вопросы-к-м3-3">Вопросы к М3 §3<a class="headerlink" href="#вопросы-к-м3-3" title="Permanent link">&para;</a></h2>
+<p>Когда вы держите на ладони камень под водой, ладонь ощущает меньшую силу, чем над водой. Камень тот же. Откуда берётся разница?</p>
+<p>В прошлом параграфе (М3 §2) мы выяснили, что вода давит во все стороны, а давление растёт с глубиной. Теперь вместо стенки плотины посмотрим на тело со всех сторон.</p>
+<ol>
+<li>Почему вода толкает погружённое тело вверх?</li>
+<li>Почему полностью погружённый брусок получает одинаковую выталкивающую силу у поверхности и глубже?</li>
+<li>Как узнать, какая часть бруска останется под водой, когда он перестанет двигаться?</li>
+<li>Как применить тот же расчёт к аэростату?</li>
+</ol>
+<p><strong>Явление</strong> — жидкость или газ выталкивает тело. <strong>Аппарат</strong> — геометрия даёт объём части тела, которая заняла место среды. <strong>Инструмент</strong> — программа вычисляет две силы и позволяет сравнить много вариантов по одному алгоритму.</p>
+<!-- fragment:002 -->
+
+<h2 id="м3-31-физика-откуда-берётся-сила-вверх">М3 §3.1. Физика: откуда берётся сила вверх<a class="headerlink" href="#м3-31-физика-откуда-берётся-сила-вверх" title="Permanent link">&para;</a></h2>
+<p>Представьте прямоугольный брусок целиком под водой. Его верхняя и нижняя грани горизонтальны и имеют одинаковую площадь <span class="arithmatex">\(S\)</span>. На верхнюю грань вода давит вниз, на нижнюю — вверх. На боковых гранях на одинаковой глубине давление одинаковое. Горизонтальные силы попарно уравновешиваются.</p>
+<!-- fig-anchor: figure.physics.fluids.pressure_on_block -->
+
+<p><img alt="Под горизонтальной поверхностью воды расположен брусок. Сверху на него давит стрелка вниз, снизу — более длинная стрелка вверх. От поверхности до верхней и нижней граней отмечены две глубины." src="/assets/images/physics.archimedes_force/generated/archimedes_force_pressure_on_block.png" /></p>
+<p><em>На равных по площади гранях сила давления снизу больше, поскольку нижняя грань глубже.</em></p>
+<p>Пусть верхняя грань находится на глубине <span class="arithmatex">\(h_1\)</span>, нижняя — на глубине <span class="arithmatex">\(h_2\)</span>. Полное давление на каждой грани складывается из внешнего давления <span class="arithmatex">\(p_0\)</span> и давления столба жидкости. Сила давления на грань равна давлению, умноженному на её площадь. Поэтому разность направленных вверх и вниз сил равна</p>
+<div class="arithmatex">\[
+(p_0 + \rho g h_2) S - (p_0 + \rho g h_1) S
+= \rho g (h_2-h_1)S.
+\]</div>
+<p>Общая добавка <span class="arithmatex">\(p_0\)</span> сокращается. Нижняя грань глубже, поэтому результат направлен вверх.</p>
+<p>Осталось разобрать произведение. Разность <span class="arithmatex">\(h_2-h_1\)</span> — это высота бруска: ровно на столько нижняя грань глубже верхней. Площадь горизонтальной грани, умноженная на эту высоту, даёт объём прямоугольного параллелепипеда; подробнее об этом в §3.2. Значит, <span class="arithmatex">\((h_2-h_1)S\)</span> равно объёму бруска. Столько места брусок занял там, где до погружения была вода.</p>
+<!-- fragment:003 -->
+
+<h3 id="вытесненный-объём-и-сила-архимеда">Вытесненный объём и сила Архимеда<a class="headerlink" href="#вытесненный-объём-и-сила-архимеда" title="Permanent link">&para;</a></h3>
+<p><strong>Вытесненный объём</strong> <span class="arithmatex">\(V_{\text{выт}}\)</span> — объём той части тела, которая занимает место жидкости или газа. Если брусок целиком под водой, это весь объём бруска. Если брусок плавает у поверхности, для расчёта выталкивания водой берём только часть под водой.</p>
+<p><strong>Сила Архимеда</strong> <span class="arithmatex">\(F_A\)</span> — направленная вверх результирующая сил давления среды на тело. Для бруска мы получили её из разности сил на двух гранях. Для тела произвольной формы действует тот же закон. Можно мысленно заменить тело порцией окружающей среды того же объёма. В покое силы давления удерживали бы эту порцию, уравновешивая её силу тяжести.</p>
+<p><strong>Закон Архимеда.</strong> В покоящейся однородной жидкости или газе модуль выталкивающей силы равен силе тяжести вытесненной среды:</p>
+<div class="arithmatex">\[F_A = \rho_{\text{среды}} g V_{\text{выт}}.\]</div>
+<p>Здесь <span class="arithmatex">\(\rho_{\text{среды}}\)</span> — плотность жидкости или газа, <span class="arithmatex">\(g\)</span> — коэффициент силы тяжести, <span class="arithmatex">\(V_{\text{выт}}\)</span> — вытесненный объём. Если плотность подставить в кг/м³, <span class="arithmatex">\(g\)</span> — в Н/кг, а объём — в м³, сила получится в ньютонах.</p>
+<!-- fragment:004 -->
+
+<h3 id="меняется-ли-выталкивание-с-глубиной">Меняется ли выталкивание с глубиной<a class="headerlink" href="#меняется-ли-выталкивание-с-глубиной" title="Permanent link">&para;</a></h3>
+<p>Мысленно опустите целиком погружённый жёсткий брусок в той же воде на 10 см глубже. Давление на обе горизонтальные грани возрастёт на одинаковую величину. Разность давлений сохранится: высота бруска не изменилась. Значит, в однородной воде при полном погружении сила Архимеда для этого бруска останется той же.</p>
+<p>При погружении с поверхности результат другой. Под водой оказывается всё большая часть бруска. Растёт вытесненный объём, и вместе с ним растёт выталкивающая сила.</p>
+<!-- fragment:005 -->
+
+<h2 id="м3-32-математика-как-найти-вытесненный-объём">М3 §3.2. Математика: как найти вытесненный объём<a class="headerlink" href="#м3-32-математика-как-найти-вытесненный-объём" title="Permanent link">&para;</a></h2>
+<p><strong>Объём</strong> показывает, сколько места занимает тело. Для его измерения можно мысленно заполнить тело одинаковыми единичными кубиками. Куб с ребром 1 см задаёт единицу 1 см³. В кубе с ребром 1 м по 100 таких кубиков вдоль каждого из трёх направлений. Поэтому <span class="arithmatex">\(1\ \text{м}^3=100^3\ \text{см}^3=1\,000\,000\ \text{см}^3\)</span> и <span class="arithmatex">\(1\ \text{см}^3=10^{-6}\ \text{м}^3\)</span>.</p>
+<p>Например, <span class="arithmatex">\(300\ \text{см}^3=0{,}000300\ \text{м}^3\)</span>. Выбирайте один способ перевода: либо сначала переведите все длины в метры, либо вычислите объём в см³ и переведите его один раз.</p>
+<!-- fragment:006 -->
+
+<h3 id="объёмы-параллелепипеда-цилиндра-и-шара">Объёмы параллелепипеда, цилиндра и шара<a class="headerlink" href="#объёмы-параллелепипеда-цилиндра-и-шара" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Прямоугольный параллелепипед.</strong> При длине основания <span class="arithmatex">\(a\)</span>, ширине <span class="arithmatex">\(b\)</span> и высоте <span class="arithmatex">\(h\)</span> объём равен <span class="arithmatex">\(V=abh\)</span>. Это площадь прямоугольного основания <span class="arithmatex">\(ab\)</span>, умноженная на высоту.</li>
+<li><strong>Прямой круговой цилиндр.</strong> Площадь круглого основания равна <span class="arithmatex">\(\pi r^2\)</span>. Поэтому при радиусе <span class="arithmatex">\(r\)</span> и высоте <span class="arithmatex">\(h\)</span> объём равен <span class="arithmatex">\(V=\pi r^2h\)</span>.</li>
+<li><strong>Шар.</strong> При радиусе <span class="arithmatex">\(r\)</span> объём равен <span class="arithmatex">\(V=\dfrac{4}{3}\pi r^3\)</span>. Если задан диаметр, сначала найдите радиус: он вдвое меньше. У шара с радиусом 3 см объём равен <span class="arithmatex">\(36\pi\ \text{см}^3\)</span>, примерно 113 см³.</li>
+</ul>
+<!-- fig-anchor: figure.physics.fluids.volume_shapes -->
+
+<p><img alt="Слева брусок с длиной, шириной и высотой. В центре цилиндр с радиусом основания и высотой. Справа шар с отрезком от центра до поверхности." src="/assets/images/physics.archimedes_force/generated/archimedes_force_volume_shapes.png" /></p>
+<p><em>Радиус откладывается от центра до поверхности, а высота цилиндра — между основаниями.</em></p>
+<p>Когда тело полностью погружено, эти формулы сразу дают <span class="arithmatex">\(V_{\text{выт}}\)</span>. У вертикального цилиндра с плоским дном при частичном погружении берите высоту под водой. Для шара, выступающего над водой, формула полного объёма даёт объём всего шара. Погружённую часть нельзя считать как цилиндр с постоянным сечением.</p>
+<!-- fragment:007 -->
+
+<h2 id="м3-33-физика-что-будет-после-погружения">М3 §3.3. Физика: что будет после погружения<a class="headerlink" href="#м3-33-физика-что-будет-после-погружения" title="Permanent link">&para;</a></h2>
+<p>Погрузим тело целиком, отпустим его из состояния покоя и посмотрим на первый момент движения. Тело свободно, стенок и дна не касается. Воду считаем покоящейся и однородной. Сравним силу Архимеда, направленную вверх, с силой тяжести <span class="arithmatex">\(F_{\text{тяж}}=mg\)</span>, направленной вниз.</p>
+<table>
+<thead>
+<tr>
+<th>Условие при полном погружении</th>
+<th>Что происходит после отпускания</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(F_A &gt; mg\)</span></td>
+<td>Тело начинает подниматься.</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(F_A &lt; mg\)</span></td>
+<td>Тело начинает опускаться.</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(F_A = mg\)</span></td>
+<td>Вертикальные силы уравновешены. Может оставаться на той же глубине, если до отпускания покоилось.</td>
+</tr>
+</tbody>
+</table>
+<!-- fig-anchor: figure.physics.fluids.floating_cases -->
+
+<p><img alt="Три бруска полностью под водой. В первом случае стрелка вверх длиннее стрелки вниз, во втором короче, в третьем равна. В четвёртой панели часть бруска над водой, стрелки равны." src="/assets/images/physics.archimedes_force/generated/archimedes_force_floating_cases.png" /></p>
+<p><em>В первых трёх панелях силы сравниваются сразу после отпускания. В последней показан брусок в покое у поверхности.</em></p>
+<p>Силу Архимеда сравниваем с силой тяжести на само тело. Обозначение <span class="arithmatex">\(P\)</span> мы уже использовали для веса: это сила, с которой тело действует на опору или подвес. В рассматриваемом опыте опоры и подвеса нет.</p>
+<p>Тело, которое начало подниматься, после выхода части объёма над поверхностью вытесняет меньше воды. Если колебания затихнут и тело будет спокойно плавать, снова выполнится <span class="arithmatex">\(F_A=mg\)</span>. Для расчёта в воде здесь пренебрегаем выталкиванием выступающей части воздухом.</p>
+<!-- fragment:008 -->
+
+<h3 id="сколько-бруска-останется-под-водой">Сколько бруска останется под водой<a class="headerlink" href="#сколько-бруска-останется-под-водой" title="Permanent link">&para;</a></h3>
+<p>У бруска размеры 12 см × 5 см × 5 см и масса 180 г. Возьмём плотность воды <span class="arithmatex">\(1000\ \text{кг/м}^3\)</span> и для прикидки <span class="arithmatex">\(g=10\ \text{Н/кг}\)</span>. При полном погружении <span class="arithmatex">\(V_{\text{выт}}=300\ \text{см}^3=0{,}000300\ \text{м}^3\)</span>, а сила Архимеда равна 3 Н. Сила тяжести равна <span class="arithmatex">\(0{,}180\cdot10=1{,}8\)</span> Н. Брусок начнёт подниматься.</p>
+<p>Когда он спокойно плавает, силы равны. Из <span class="arithmatex">\(\rho_{\text{воды}}gV_{\text{выт}}=mg\)</span> получаем</p>
+<div class="arithmatex">\[V_{\text{выт}}=\frac{m}{\rho_{\text{воды}}}=\frac{0{,}180}{1000}\ \text{м}^3=180\ \text{см}^3.\]</div>
+<p>Под водой окажется <span class="arithmatex">\(180/300=0{,}60\)</span>, то есть 60% объёма. Если брусок плавает широкой гранью 12 см × 5 см горизонтально, погружённая высота равна <span class="arithmatex">\(180/60=3\)</span> см. Ещё 2 см остаются над водой.</p>
+<!-- fragment:009 -->
+
+<h2 id="м3-34-информатика-как-сравнить-силы">М3 §3.4. Информатика: как сравнить силы<a class="headerlink" href="#м3-34-информатика-как-сравнить-силы" title="Permanent link">&para;</a></h2>
+<p>Проверим три тела одинакового объёма <span class="arithmatex">\(300\ \text{см}^3\)</span> и разной массы. Введём данные в СИ. В каждом случае программа печатает массу и начальную тенденцию движения полностью погружённого тела. После расчёта сил сначала проверяем их близость с допуском в ньютонах. Как в М1 §1, этот допуск учитывает конечное представление вещественных чисел.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="kn">import</span> <span class="n">isclose</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="n">medium_density</span> <span class="o">=</span> <span class="mi">1000</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="n">volume</span> <span class="o">=</span> <span class="mf">0.000300</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="n">g</span> <span class="o">=</span> <span class="mi">10</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a><span class="n">buoyant_force</span> <span class="o">=</span> <span class="n">medium_density</span> <span class="o">*</span> <span class="n">g</span> <span class="o">*</span> <span class="n">volume</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="k">for</span> <span class="n">mass</span> <span class="ow">in</span> <span class="p">[</span><span class="mf">0.18</span><span class="p">,</span> <span class="mf">0.30</span><span class="p">,</span> <span class="mf">0.42</span><span class="p">]:</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    <span class="n">gravity_force</span> <span class="o">=</span> <span class="n">mass</span> <span class="o">*</span> <span class="n">g</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>    <span class="k">if</span> <span class="n">isclose</span><span class="p">(</span><span class="n">buoyant_force</span><span class="p">,</span> <span class="n">gravity_force</span><span class="p">,</span> <span class="n">rel_tol</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">abs_tol</span><span class="o">=</span><span class="mf">0.000001</span><span class="p">):</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>        <span class="nb">print</span><span class="p">(</span><span class="n">mass</span><span class="p">,</span> <span class="s2">"кг: баланс сил"</span><span class="p">)</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    <span class="k">elif</span> <span class="n">buoyant_force</span> <span class="o">&gt;</span> <span class="n">gravity_force</span><span class="p">:</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>        <span class="nb">print</span><span class="p">(</span><span class="n">mass</span><span class="p">,</span> <span class="s2">"кг: начнёт подниматься"</span><span class="p">)</span>
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>        <span class="nb">print</span><span class="p">(</span><span class="n">mass</span><span class="p">,</span> <span class="s2">"кг: начнёт опускаться"</span><span class="p">)</span>
+</code></pre></div>
+<pre class="aristotel-output"><code>0.18 кг: начнёт подниматься
+0.3 кг: баланс сил
+0.42 кг: начнёт опускаться</code></pre>
+<!-- fragment:010 -->
+
+<h3 id="программа-для-плавающего-бруска">Программа для плавающего бруска<a class="headerlink" href="#программа-для-плавающего-бруска" title="Permanent link">&para;</a></h3>
+<p>Если объём, требуемый для уравновешивания силы тяжести, меньше полного объёма тела, у поверхности возможен баланс сил при частичном погружении. Посчитаем для нашего бруска, сколько кубических сантиметров останется под водой. Блок задаёт свои данные и запускается отдельно.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">mass</span> <span class="o">=</span> <span class="mf">0.18</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">water_density</span> <span class="o">=</span> <span class="mi">1000</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">displaced_volume</span> <span class="o">=</span> <span class="n">mass</span> <span class="o">/</span> <span class="n">water_density</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">"Под водой </span><span class="si">{</span><span class="n">displaced_volume</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">1000000</span><span class="si">:</span><span class="s2">.0f</span><span class="si">}</span><span class="s2"> см³"</span><span class="p">)</span>
+</code></pre></div>
+<pre class="aristotel-output"><code>Под водой 180 см³</code></pre>
+<p>Внутри фигурных скобок после выражения стоит <code>:.0f</code> — указание формата. Оно говорит, сколько знаков после десятичной точки печатать: <code>0</code> значит «ни одного». Меняется только вид числа на экране; в переменной <code>displaced_volume</code> остаётся полное значение.</p>
+<!-- fragment:011 -->
+
+<h2 id="м3-35-физика-почему-поднимается-аэростат">М3 §3.5. Физика: почему поднимается аэростат<a class="headerlink" href="#м3-35-физика-почему-поднимается-аэростат" title="Permanent link">&para;</a></h2>
+<p>У аэростата роль воды выполняет окружающий воздух. В формулу силы Архимеда подставляем плотность <strong>наружного воздуха</strong> и объём воздуха, вытесненного оболочкой. Для силы тяжести складываем массы газа внутри, оболочки, оборудования и груза.</p>
+<!-- fig-anchor: figure.physics.fluids.balloon_forces -->
+
+<p><img alt="На схеме оболочка с гелием, оборудование и груз. Стрелка вверх подписана как выталкивающая сила воздуха, стрелка вниз — как сила тяжести всей системы." src="/assets/images/physics.archimedes_force/generated/archimedes_force_balloon_forces.png" /></p>
+<p><em>В силу тяжести системы входит масса гелия, оболочки, оборудования и груза.</em></p>
+<p>Пусть оболочка вытесняет 100 м³ воздуха. Для прикидки примем плотность воздуха <span class="arithmatex">\(1{,}20\ \text{кг/м}^3\)</span>, плотность гелия <span class="arithmatex">\(0{,}18\ \text{кг/м}^3\)</span> и <span class="arithmatex">\(g=10\ \text{Н/кг}\)</span>. Масса вытесненного воздуха равна 120 кг, поэтому выталкивающая сила равна 1200 Н. Масса гелия равна 18 кг. Если оболочка, оборудование и груз вместе имеют массу 90 кг, общая масса равна 108 кг, а сила тяжести — 1080 Н. После освобождения аэростат в этой модели начнёт подниматься. Разность вертикальных сил в начальный момент равна 120 Н.</p>
+<!-- fragment:012 -->
+
+<h2 id="м3-36-задачи">М3 §3.6. Задачи<a class="headerlink" href="#м3-36-задачи" title="Permanent link">&para;</a></h2>
+<h3 id="1-две-грани">1. Две грани<a class="headerlink" href="#1-две-грани" title="Permanent link">&para;</a></h3>
+<p>На рисунке в §3.1 показан брусок, целиком погружённый в воду. В какую сторону действует сила давления воды на верхнюю грань? На нижнюю? Сравните модули этих сил и укажите направление силы Архимеда.</p>
+<!-- fragment:013 -->
+
+<h3 id="2-цилиндр-под-водой">2. Цилиндр под водой<a class="headerlink" href="#2-цилиндр-под-водой" title="Permanent link">&para;</a></h3>
+<p><strong>а)</strong> Прямой круговой цилиндр радиусом 5 см и высотой 8 см полностью погрузили в воду. Масса цилиндра 0,70 кг. Найдите вытесненный объём в м³, рассчитайте силу Архимеда и силу тяжести. Куда цилиндр начнёт двигаться, если отпустить его, пока он не касается дна? Используйте <span class="arithmatex">\(\pi\approx3{,}14\)</span>, <span class="arithmatex">\(\rho_{\text{воды}}=1000\ \text{кг/м}^3\)</span> и <span class="arithmatex">\(g=10\ \text{Н/кг}\)</span>.</p>
+<p><strong>б)</strong> Тот же цилиндр заменили другим — из материала с меньшей плотностью, массой 0,40 кг. Ось цилиндра вертикальна. Он спокойно плавает, не касаясь дна и стенок, и часть его высоты остаётся над водой. Найдите вытесненный объём в м³ и высоту погружённой части. Какую долю полной высоты она составляет?</p>
+<!-- fragment:014 -->
+
+<h3 id="3-три-ветви-программы--и96">3. Три ветви программы · И(9):6<a class="headerlink" href="#3-три-ветви-программы--и96" title="Permanent link">&para;</a></h3>
+<p>Три полностью погружённых тела одинакового объёма имеют разную массу. Запишите три строки вывода программы и для каждой укажите, какая ветвь сработает.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">math</span><span class="w"> </span><span class="kn">import</span> <span class="n">isclose</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="n">medium_density</span> <span class="o">=</span> <span class="mi">1000</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="n">volume</span> <span class="o">=</span> <span class="mf">0.0005</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">g</span> <span class="o">=</span> <span class="mi">10</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="n">lift</span> <span class="o">=</span> <span class="n">medium_density</span> <span class="o">*</span> <span class="n">g</span> <span class="o">*</span> <span class="n">volume</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="k">for</span> <span class="n">mass</span> <span class="ow">in</span> <span class="p">[</span><span class="mf">0.55</span><span class="p">,</span> <span class="mf">0.50</span><span class="p">,</span> <span class="mf">0.45</span><span class="p">]:</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    <span class="n">gravity_force</span> <span class="o">=</span> <span class="n">mass</span> <span class="o">*</span> <span class="n">g</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>    <span class="k">if</span> <span class="n">isclose</span><span class="p">(</span><span class="n">lift</span><span class="p">,</span> <span class="n">gravity_force</span><span class="p">,</span> <span class="n">rel_tol</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">abs_tol</span><span class="o">=</span><span class="mf">0.000001</span><span class="p">):</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>        <span class="nb">print</span><span class="p">(</span><span class="s2">"баланс"</span><span class="p">)</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>    <span class="k">elif</span> <span class="n">lift</span> <span class="o">&gt;</span> <span class="n">gravity_force</span><span class="p">:</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>        <span class="nb">print</span><span class="p">(</span><span class="s2">"вверх"</span><span class="p">)</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>    <span class="k">else</span><span class="p">:</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>        <span class="nb">print</span><span class="p">(</span><span class="s2">"вниз"</span><span class="p">)</span>
+</code></pre></div>
+<!-- fragment:015 -->
+
+<h3 id="4-груз-для-аэростата--экзамен--по-мотивам-ф920">4. Груз для аэростата · Экзамен · по мотивам Ф(9):20<a class="headerlink" href="#4-груз-для-аэростата--экзамен--по-мотивам-ф920" title="Permanent link">&para;</a></h3>
+<p>Аэростат имеет шаровую оболочку радиусом 4 м. Считайте объём наружного воздуха, вытесненного оболочкой, равным объёму гелия внутри неё. Масса оболочки и оборудования вместе равна 180 кг, масса дополнительного груза — 110 кг. Плотность воздуха <span class="arithmatex">\(1{,}20\ \text{кг/м}^3\)</span>, плотность гелия <span class="arithmatex">\(0{,}18\ \text{кг/м}^3\)</span>. Считайте <span class="arithmatex">\(\pi\approx3{,}14\)</span> и <span class="arithmatex">\(g=10\ \text{Н/кг}\)</span>. Определите, начнёт ли аэростат подниматься после освобождения. Запишите расчёт выталкивающей силы и силы тяжести. Покажите, как учли каждую из масс, и сформулируйте вывод.</p>
+<!-- fragment:016 -->
+
+<h2 id="м3-37-итог">М3 §3.7. Итог<a class="headerlink" href="#м3-37-итог" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Сила Архимеда направлена вверх. Для покоящейся однородной среды её модуль равен <span class="arithmatex">\(\rho_{\text{среды}}gV_{\text{выт}}\)</span>.</li>
+<li>Вытесненный объём — объём части тела, занимающей место среды. При полном погружении берём весь объём. При плавании считаем объём части под поверхностью.</li>
+<li>Сравнение <span class="arithmatex">\(F_A\)</span> и <span class="arithmatex">\(mg\)</span> показывает начальное движение свободного тела. В состоянии покоя у плавающего тела вертикальные силы уравновешены.</li>
+<li>В воде и в воздухе работает один расчёт. Меняется плотность среды и состав массы тела или системы.</li>
+</ul>
+<!-- fragment:017 -->
+
+<h2 id="мост-к-м3-4">Мост к М3 §4<a class="headerlink" href="#мост-к-м3-4" title="Permanent link">&para;</a></h2>
+<p>В открытом сосуде к давлению водяного столба добавляется давление воздуха над водой. В расчёте силы Архимеда для бруска эта добавка сократилась. Но сама величина никуда не исчезла. Как измерить давление воздуха, если его столб нельзя налить в мерный цилиндр? Это вопрос следующего параграфа, об атмосферном давлении.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      © 2026 ARISTOTEL
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16/dist/contrib/auto-render.min.js"></script>
+      
+        <script src="../../../assets/javascripts/katex-init.js"></script>
+      
+    
+  </body>
+</html>

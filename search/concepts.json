@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1.0",
   "stembook_version": "0.1.0",
-  "concept_count": 202,
+  "concept_count": 208,
   "concepts": [
     {
       "id": "cs.arbitrary_precision_integer",
@@ -788,6 +788,38 @@
       "href": "/concepts/math-gcd/"
     },
     {
+      "id": "math.geometry.cylinder_volume",
+      "title": "Объём цилиндра",
+      "subject": "math",
+      "area": null,
+      "importance": "high",
+      "href": "/concepts/math-geometry-cylinder_volume/"
+    },
+    {
+      "id": "math.geometry.parallelepiped_volume",
+      "title": "Объём прямоугольного параллелепипеда",
+      "subject": "math",
+      "area": null,
+      "importance": "high",
+      "href": "/concepts/math-geometry-parallelepiped_volume/"
+    },
+    {
+      "id": "math.geometry.sphere_volume",
+      "title": "Объём шара",
+      "subject": "math",
+      "area": null,
+      "importance": "high",
+      "href": "/concepts/math-geometry-sphere_volume/"
+    },
+    {
+      "id": "math.geometry.volume",
+      "title": "Объём",
+      "subject": "math",
+      "area": null,
+      "importance": "high",
+      "href": "/concepts/math-geometry-volume/"
+    },
+    {
       "id": "math.goldbach_conjecture",
       "title": "Гипотеза Гольдбаха",
       "subject": "math",
@@ -1322,6 +1354,22 @@
       "area": null,
       "importance": "high",
       "href": "/concepts/physics-external_pressure/"
+    },
+    {
+      "id": "physics.fluids.buoyant_force",
+      "title": "Сила Архимеда",
+      "subject": "physics",
+      "area": null,
+      "importance": "high",
+      "href": "/concepts/physics-fluids-buoyant_force/"
+    },
+    {
+      "id": "physics.fluids.displaced_volume",
+      "title": "Вытесненный объём",
+      "subject": "physics",
+      "area": null,
+      "importance": "high",
+      "href": "/concepts/physics-fluids-displaced_volume/"
     },
     {
       "id": "physics.force",
